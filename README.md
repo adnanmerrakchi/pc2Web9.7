@@ -2,7 +2,7 @@
 
 This README file provides instructions for installing PC2 version 9.7 with the PC2Team web client.
 
-###1. Deploy pc2server.
+### 1. Deploy pc2server.
 The first step is to configure the pc2server, which is the core of the pc2 solution. Before we begin, please ensure that your machine meets these requirements.
   - Java(1.7 or greater) and its bin directory in PATH.
   - Enough memory to avoid memory-limit problems.
@@ -18,7 +18,7 @@ It depends if your machine is a GUI machine or non GUI.
 ##### non GUI machine.
   run this command **pc2server --nogui --login site1 --password site1 --contestpassword [contest password]**
   
-###2. Deploy pc2admin. 
+### 2. Deploy pc2admin. 
 #### What is pc2admin for.
 a bat file located in the bin direcotory, It's the instance which manage, configure and run the contest. it's the **ADMIN**
 #### How to run it.
@@ -34,7 +34,7 @@ Using the **pc2admin** try to Generate a pc2admin, teams, judges and 2 scoreboar
 
 In order to support the PC2Team web client, the PC2 configuration must include a scoreboard account explicitly named "scoreboard2". so you have to create two accounts.
 
-###3. Run PC2Team web client.
+### 3. Run PC2Team web client.
 To run PC2Team web client, First you need to install an application server (in my case i used XAMPP when i ran in windows and apache 2 when i ran in linux).
   - Unzip the folder **WebTeamInterface-1.1.zip** in the racine of server application.
   - Add bin directory to PATH
