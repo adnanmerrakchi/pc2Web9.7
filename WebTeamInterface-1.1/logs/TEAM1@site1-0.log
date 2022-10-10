@@ -1,0 +1,20 @@
+221009 002008.553|CONFIG|Thread-28|setFileHandlers|Now logging to C:\xampp\htdocs\WebTeamInterface-1.1\logs directory.
+221009 002008.554|INFO|Thread-28|info|
+221009 002008.554|INFO|Thread-28|info|Version 9 () Java ver 11.0.2 build  Windows 10 10.0 (amd64) 
+221009 002008.555|INFO|Thread-28|info|Login: team1 (aka team1)
+221009 002008.555|INFO|Thread-28|startLog|Working directory is C:\xampp\htdocs\WebTeamInterface-1.1
+221009 002008.555|INFO|Thread-28|startLog|Process id is 15640@DESKTOP-GE25NLQ
+221009 002008.555|INFO|Thread-28|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+221009 002008.556|INFO|Thread-28|info|handlePacket end Packet[LOGIN_SUCCESS] #28 SERVER0 @ site 1 -> TEAM1 @ site 1
+221009 002008.556|INFO|Thread-28|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #28 SERVER0 @ site 1 -> TEAM1 @ site 1
+221009 004019.477|INFO|qtp657736958-22|sendToLocalServer|Sending packet to server Packet[LOGOUT] #5 TEAM1 @ site 1 -> SERVER0 @ site 1
+221009 004019.480|INFO|qtp657736958-22|sendToLocalServer|Sent    packet to server Packet[LOGOUT] #5 TEAM1 @ site 1 -> SERVER0 @ site 1
+221009 032724.215|CONFIG|Thread-24|setFileHandlers|Now logging to C:\xampp\htdocs\WebTeamInterface-1.1\logs directory.
+221009 032724.248|INFO|Thread-24|info|
+221009 032724.269|INFO|Thread-24|info|Version 9 () Java ver 11.0.2 build  Windows 10 10.0 (amd64) 
+221009 032724.271|INFO|Thread-24|info|Login: team1 (aka team1)
+221009 032724.272|INFO|Thread-24|startLog|Working directory is C:\xampp\htdocs\WebTeamInterface-1.1
+221009 032724.272|INFO|Thread-24|startLog|Process id is 16464@DESKTOP-GE25NLQ
+221009 032724.273|INFO|Thread-24|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+221009 032724.273|INFO|Thread-24|info|handlePacket end Packet[LOGIN_SUCCESS] #56 SERVER0 @ site 1 -> TEAM1 @ site 1
+221009 032724.274|INFO|Thread-24|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #56 SERVER0 @ site 1 -> TEAM1 @ site 1

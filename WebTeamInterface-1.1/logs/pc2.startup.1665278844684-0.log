@@ -1,0 +1,45 @@
+221009 032724.692|CONFIG|qtp1683662486-25|setFileHandlers|Now logging to C:\xampp\htdocs\WebTeamInterface-1.1\logs directory.
+221009 032724.694|INFO|qtp1683662486-25|info|
+221009 032724.695|INFO|qtp1683662486-25|info|Version 9 () Java ver 11.0.2 build  Windows 10 10.0 (amd64) 
+221009 032724.697|INFO|qtp1683662486-25|startLog|Working directory is C:\xampp\htdocs\WebTeamInterface-1.1
+221009 032724.699|INFO|qtp1683662486-25|startLog|Process id is 16464@DESKTOP-GE25NLQ
+221009 032724.699|INFO|qtp1683662486-25|start|Starting ConnectionManager...
+221009 032724.705|INFO|qtp1683662486-25|start|Started ConnectionManager
+221009 032724.734|INFO|qtp1683662486-25|setClientServerAndPort|INIFile File location: file:/C:/xampp/htdocs/WebTeamInterface-1.1/pc2v9.ini
+221009 032724.734|INFO|qtp1683662486-25|setClientServerAndPort|setClientServerAndPort 34.204.53.97 parsed as 34.204.53.97 port 50002
+221009 032724.734|INFO|qtp1683662486-25|info|Contacting server at 34.204.53.97:50002
+221009 032724.734|INFO|qtp1683662486-25|connectToMyServer|Connecting to 34.204.53.97:50002
+221009 113255.895|INFO|Thread-38|receive|SocketException in receive for Socket[addr=/34.204.53.97,port=50002,localport=49387]-6763699916795449266
+|java.net.SocketException: Software caused connection abort: recv failed
+|    at java.net.SocketInputStream.socketRead0 (SocketInputStream.java:-2)
+|    at java.net.SocketInputStream.socketRead (SocketInputStream.java:115)
+|    at java.net.SocketInputStream.read (SocketInputStream.java:168)
+|    at java.net.SocketInputStream.read (SocketInputStream.java:140)
+|    at java.net.SocketInputStream.read (SocketInputStream.java:200)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2723)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3050)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3060)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1561)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:430)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)
+221009 113255.942|FINER|Thread-38|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: Software caused connection abort: recv failed
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:156)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)
+221009 113255.942|INFO|Thread-38|receive|SocketException in receive for Socket[addr=/34.204.53.97,port=50002,localport=49387]-6763699916795449266
+|java.net.SocketException: Connection reset
+|    at java.net.SocketInputStream.read (SocketInputStream.java:186)
+|    at java.net.SocketInputStream.read (SocketInputStream.java:140)
+|    at java.net.SocketInputStream.read (SocketInputStream.java:200)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2723)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3050)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3060)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1561)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:430)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)
+221009 113255.942|FINER|Thread-38|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: Connection reset
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:156)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)

@@ -1,0 +1,62 @@
+221009 001928.154|CONFIG|main|setFileHandlers|Now logging to C:\xampp\htdocs\WebTeamInterface-1.1\logs directory.
+221009 001928.191|FINE|main|verifyPC2ScoreboardLogin|Verifying PC2 scoreboard account login...
+221009 001928.194|FINE|main|verifyPC2ScoreboardLogin|Attempting to login to PC2 scoreboard account 'scoreboard2'
+221009 001929.723|FINE|main|verifyPC2ScoreboardLogin|Successfully logged in to PC2 scoreboard account
+221009 001929.723|FINE|main|verifyPC2ScoreboardLogin|Logging back out of PC2 scoreboard account pending team connections
+221009 001929.724|INFO|main|startServer|Constructing Jetty service handlers
+221009 001929.950|INFO|main|startServer|Creating Jetty server
+221009 001929.970|INFO|main|startServer|Installing service handlers in Jetty
+221009 001929.972|INFO|main|startServer|Starting Jetty server
+221009 002008.901|INFO|qtp657736958-21|login|Logged in: team1
+221009 002009.061|INFO|qtp657736958-25|getTeamRuns|Returning 'OK' for team team1
+221009 002010.791|FINE|qtp657736958-24|<init>|Constructing DSA for Contest Controller
+221009 002021.346|INFO|qtp657736958-31|getTeamRuns|Returning 'OK' for team team1
+221009 002442.837|FINE|qtp657736958-25|getStandings|Looking up team login connection
+221009 002442.838|INFO|qtp657736958-25|getStandings|Standings requested by team team1
+221009 002442.839|INFO|qtp657736958-25|getStandings|Standings are not current; invoking DSA to update
+221009 002442.839|FINE|qtp657736958-25|getStandings|DEBUG: using freezeSeconds of 14400 for str 01:00:00, with isThawn=false
+221009 002442.979|INFO|qtp657736958-25|getStandings|Converting DSA XML to JSON
+221009 002442.990|INFO|qtp657736958-25|getStandings|Returning JSON standings in HTTP Response
+221009 002447.187|INFO|qtp657736958-30|getTeamRuns|Returning 'OK' for team team1
+221009 003749.138|INFO|qtp657736958-59|getTeamRuns|Returning 'OK' for team team1
+221009 003802.464|INFO|qtp657736958-31|getTeamRuns|Returning 'OK' for team team1
+221009 003819.904|FINE|qtp657736958-61|getStandings|Looking up team login connection
+221009 003819.904|INFO|qtp657736958-61|getStandings|Standings requested by team team1
+221009 003819.904|INFO|qtp657736958-61|getStandings|Returning JSON standings in HTTP Response
+221009 003906.443|FINE|qtp657736958-25|getStandings|Looking up team login connection
+221009 003906.443|INFO|qtp657736958-25|getStandings|Standings requested by team team1
+221009 003906.444|INFO|qtp657736958-25|getStandings|Returning JSON standings in HTTP Response
+221009 004018.002|INFO|qtp657736958-30|getTeamRuns|Returning 'OK' for team team1
+221009 004019.480|INFO|qtp657736958-22|logout|Logged out team team1
+221009 032659.699|CONFIG|main|setFileHandlers|Now logging to C:\xampp\htdocs\WebTeamInterface-1.1\logs directory.
+221009 032659.788|FINE|main|verifyPC2ScoreboardLogin|Verifying PC2 scoreboard account login...
+221009 032659.801|FINE|main|verifyPC2ScoreboardLogin|Attempting to login to PC2 scoreboard account 'scoreboard2'
+221009 032702.016|FINE|main|verifyPC2ScoreboardLogin|Successfully logged in to PC2 scoreboard account
+221009 032702.017|FINE|main|verifyPC2ScoreboardLogin|Logging back out of PC2 scoreboard account pending team connections
+221009 032702.025|INFO|main|startServer|Constructing Jetty service handlers
+221009 032702.536|INFO|main|startServer|Creating Jetty server
+221009 032702.593|INFO|main|startServer|Installing service handlers in Jetty
+221009 032702.594|INFO|main|startServer|Starting Jetty server
+221009 032724.362|INFO|qtp1683662486-25|login|Logged in: team1
+221009 032724.739|INFO|qtp1683662486-22|getTeamRuns|Returning 'OK' for team team1
+221009 032726.419|FINE|qtp1683662486-25|<init>|Constructing DSA for Contest Controller
+221009 040648.756|INFO|qtp1683662486-19|login|Logged in: team1
+221009 040649.051|INFO|qtp1683662486-18|getTeamRuns|Returning 'OK' for team team1
+221009 040720.890|FINE|qtp1683662486-55|getStandings|Looking up team login connection
+221009 040720.892|INFO|qtp1683662486-55|getStandings|Standings requested by team team1
+221009 040720.892|INFO|qtp1683662486-55|getStandings|Standings are not current; invoking DSA to update
+221009 040720.894|FINE|qtp1683662486-55|getStandings|DEBUG: using freezeSeconds of 14400 for str 01:00:00, with isThawn=false
+221009 040721.196|INFO|qtp1683662486-55|getStandings|Converting DSA XML to JSON
+221009 040721.216|INFO|qtp1683662486-55|getStandings|Returning JSON standings in HTTP Response
+221009 040723.595|INFO|qtp1683662486-55|getTeamRuns|Returning 'OK' for team team1
+221009 113450.482|INFO|qtp1683662486-65|login|Logged in: team1
+221009 113450.586|INFO|qtp1683662486-23|getTeamRuns|Returning 'OK' for team team1
+221009 130334.625|INFO|qtp1683662486-20|login|Logged in: team1
+221009 130334.760|INFO|qtp1683662486-38|getTeamRuns|Returning 'OK' for team team1
+221009 130509.668|INFO|qtp1683662486-38|login|Logged in: team1
+221009 130509.725|INFO|qtp1683662486-54|getTeamRuns|Returning 'OK' for team team1
+221009 130515.902|INFO|qtp1683662486-77|getTeamRuns|Returning 'OK' for team team1
+221009 130515.968|INFO|qtp1683662486-23|getTeamRuns|Returning 'OK' for team team1
+221009 130519.198|INFO|qtp1683662486-69|logout|Logged out team team1
+221009 130528.703|INFO|qtp1683662486-71|login|Logged in: team1
+221009 130528.764|INFO|qtp1683662486-54|getTeamRuns|Returning 'OK' for team team1

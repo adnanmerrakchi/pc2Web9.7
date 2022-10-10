@@ -1,0 +1,26 @@
+221009 001928.243|CONFIG|main|setFileHandlers|Now logging to C:\xampp\htdocs\WebTeamInterface-1.1\logs directory.
+221009 001928.243|INFO|main|info|
+221009 001928.245|INFO|main|info|Version 9 () Java ver 11.0.2 build  Windows 10 10.0 (amd64) 
+221009 001928.245|INFO|main|startLog|Working directory is C:\xampp\htdocs\WebTeamInterface-1.1
+221009 001928.302|INFO|main|startLog|Process id is 15640@DESKTOP-GE25NLQ
+221009 001928.302|INFO|main|start|Starting ConnectionManager...
+221009 001928.563|INFO|main|start|Started ConnectionManager
+221009 001928.566|INFO|main|setClientServerAndPort|INIFile File location: file:/C:/xampp/htdocs/WebTeamInterface-1.1/pc2v9.ini
+221009 001928.567|INFO|main|setClientServerAndPort|setClientServerAndPort 34.204.53.97 parsed as 34.204.53.97 port 50002
+221009 001928.568|INFO|main|info|Contacting server at 34.204.53.97:50002
+221009 001928.569|INFO|main|connectToMyServer|Connecting to 34.204.53.97:50002
+221009 001929.935|INFO|Thread-0|receive|EOFException in receive for Socket[addr=/34.204.53.97,port=50002,localport=62619]-3631769673552633187
+|java.io.EOFException: null
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3062)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1561)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:430)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:152)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)
+221009 001929.938|FINER|Thread-0|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: null
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:159)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)
+221009 001929.939|FINER|Thread-0|run - e.getmessage is null()|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: null
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:159)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:66)

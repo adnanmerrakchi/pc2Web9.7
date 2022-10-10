@@ -1,0 +1,9 @@
+221009 130528.508|CONFIG|Thread-67|setFileHandlers|Now logging to C:\xampp\htdocs\WebTeamInterface-1.1\logs directory.
+221009 130528.509|INFO|Thread-67|info|
+221009 130528.509|INFO|Thread-67|info|Version 9 () Java ver 11.0.2 build  Windows 10 10.0 (amd64) 
+221009 130528.510|INFO|Thread-67|info|Login: team1 (aka team1)
+221009 130528.510|INFO|Thread-67|startLog|Working directory is C:\xampp\htdocs\WebTeamInterface-1.1
+221009 130528.510|INFO|Thread-67|startLog|Process id is 16464@DESKTOP-GE25NLQ
+221009 130528.510|INFO|Thread-67|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+221009 130528.511|INFO|Thread-67|info|handlePacket end Packet[LOGIN_SUCCESS] #34 SERVER0 @ site 1 -> TEAM1 @ site 1
+221009 130528.511|INFO|Thread-67|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #34 SERVER0 @ site 1 -> TEAM1 @ site 1

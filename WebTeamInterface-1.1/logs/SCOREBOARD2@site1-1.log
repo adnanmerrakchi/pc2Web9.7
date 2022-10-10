@@ -1,0 +1,9 @@
+221009 002010.389|CONFIG|Thread-39|setFileHandlers|Now logging to C:\xampp\htdocs\WebTeamInterface-1.1\logs directory.
+221009 002010.390|INFO|Thread-39|info|
+221009 002010.391|INFO|Thread-39|info|Version 9 () Java ver 11.0.2 build  Windows 10 10.0 (amd64) 
+221009 002010.391|INFO|Thread-39|info|Login: scoreboard2 (aka scoreboard2)
+221009 002010.391|INFO|Thread-39|startLog|Working directory is C:\xampp\htdocs\WebTeamInterface-1.1
+221009 002010.391|INFO|Thread-39|startLog|Process id is 15640@DESKTOP-GE25NLQ
+221009 002010.391|INFO|Thread-39|info| handlePacket original LOGIN_SUCCESS after -- all settings loaded 
+221009 002010.392|INFO|Thread-39|info|handlePacket end Packet[LOGIN_SUCCESS] #31 SERVER0 @ site 1 -> SCOREBOARD2 @ site 1
+221009 002010.392|INFO|Thread-39|info| receiveObject(S) end   got Packet[LOGIN_SUCCESS] #31 SERVER0 @ site 1 -> SCOREBOARD2 @ site 1
