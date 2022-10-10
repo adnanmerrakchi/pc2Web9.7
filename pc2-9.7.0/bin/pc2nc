@@ -1,0 +1,13 @@
+#!/bin/sh
+# Copyright (C) 1989-2019 PC2 Development Team: John Clevenger, Douglas Lane, Samir Ashoo, and Troy Boudreau.
+#
+# Purpose: run pc2 Netcat program
+# Author : pc2@ecs.csus.edu
+# $HeadURL$
+#
+
+. `dirname $0`/pc2env
+
+java -Djdk.crypto.KeyAgreement.legacyKDF=true -Xms64M -Xmx768M -cp "$libdir/*" edu.csus.ecs.pc2.tools.Netcat $*
+
+# eof pc2nc $Id$ 
